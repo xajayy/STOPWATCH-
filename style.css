@@ -1,0 +1,67 @@
+/* Define the body font and background color */
+body{
+    font-family: 'Lato', sans-serif;
+    background-color: black;
+ }
+ 
+ /* Style the container with a centered text alignment, margin, width, border, padding, and border radius */
+ .container{
+    text-align: center;
+    margin-left: 27%;
+    width: 450px;
+    border: 2px solid rgb(103, 18, 182);
+    padding: 22px;
+    border-radius: 20px;
+    background-color: rgb(103, 18, 182); 
+ }
+ 
+ /* Center align, set font size, and color for h1 elements */
+ h1{
+    color:rgb(245, 237, 237);
+    text-align: center;
+    font-size: 38px;
+ }
+ 
+ /* Style the num class with display flex, color, and margin */
+ .num{
+    display: flex;
+    color: white;
+    margin-left: 5%;
+ }
+ 
+ /* Style h2 elements with font size and margin */
+ h2{
+    font-size: 60px;
+    margin-inline: 5px;
+ }
+ 
+ /* Style button elements with width, height, background color, color, font size, border, outline, border radius, margin, and cursor style */
+button{
+    width: 100px;
+    height: 35px;
+    background-color: rgb(28, 14, 66);
+    color: white;
+    font-size: 24px;
+    border: none;
+    outline: none;
+    border-radius: 2px;
+    margin-inline: 8px;
+    cursor: pointer;
+    border-radius: 10px;
+    
+ } 
+ /* Style button hover with border */
+ button,#strat:hover{
+    border: 2px solid rgb(26, 209, 35);
+ }
+ button,#stop:hover{
+    border: 2px solid rgb(243, 14, 14);
+ }
+ button,#reset:hover{
+    border: 2px solid rgb(211, 197, 7);
+ }
+ button,:hover{
+    border:white
+
+ }
+ 
